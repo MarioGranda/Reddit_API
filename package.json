@@ -1,0 +1,22 @@
+{
+  "name": "reddit_api",
+  "version": "1.0.0",
+  "description": "App to fetch data from Reddit API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "cryptos": "node cryptos.js"
+  },
+  "author": "Mario",
+  "license": "ISC",
+  "dependencies": {
+    "@jimmycode/simple-oauth2-reddit": "^0.6.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "reddit-oauth": "^1.1.1",
+    "snoowrap": "^1.22.0"
+  }
+}
